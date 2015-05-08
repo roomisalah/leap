@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_edu_leap_domain_CourseSections" object="${coursesections}" path="/coursesectionses" z="BNehYxIR9YHyNIp9+Q6vGFFOArk=">
+        <field:display field="companyid" id="s_com_edu_leap_domain_CourseSections_companyid" object="${coursesections}" z="6I+GMvCjT0WqwbPkveGjMQwjuCc="/>
+        <field:display field="courseid" id="s_com_edu_leap_domain_CourseSections_courseid" object="${coursesections}" z="LnZF8mUjU+qkYm9HWAmEy9KHgmI="/>
+        <field:display field="section" id="s_com_edu_leap_domain_CourseSections_section" object="${coursesections}" z="k3+m+7XuBB5bd6CtCamWw2O6izw="/>
+        <field:display field="name" id="s_com_edu_leap_domain_CourseSections_name" object="${coursesections}" z="cYdC/OkERaXWHhfD+RlnebpvbJA="/>
+        <field:display field="summary" id="s_com_edu_leap_domain_CourseSections_summary" object="${coursesections}" z="Y5NwNVEifvafwEsW1mFMW/k6n+0="/>
+        <field:display field="summaryformat" id="s_com_edu_leap_domain_CourseSections_summaryformat" object="${coursesections}" z="medm8bhDYsyHF+GudReOyaPBqAU="/>
+        <field:display field="sequence" id="s_com_edu_leap_domain_CourseSections_sequence" object="${coursesections}" z="xxJ0xA+O7W0dYUZmQXiO3HkAFU4="/>
+        <field:display field="status" id="s_com_edu_leap_domain_CourseSections_status" object="${coursesections}" z="wv4ZNH6cGwxVC2FdC+fZ2cbPX/8="/>
+    </page:show>
+</div>

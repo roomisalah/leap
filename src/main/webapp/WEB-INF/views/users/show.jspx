@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_edu_leap_domain_User" object="${user}" path="/users" z="M1IacfLH3Z+CA8KG81zEqNCT3+w=">
+        <field:display field="companyid" id="s_com_edu_leap_domain_User_companyid" object="${user}" z="R4PcsNKI7KD37VpZyC/tfb7Pjlw="/>
+        <field:display field="roletype" id="s_com_edu_leap_domain_User_roletype" object="${user}" z="A48lubHa7nh7HJreEwQadsH9URQ="/>
+        <field:display field="auth" id="s_com_edu_leap_domain_User_auth" object="${user}" z="tR1yFcAQaPsp1c3eYU6For0TMlo="/>
+        <field:display field="active" id="s_com_edu_leap_domain_User_active" object="${user}" z="iN8nVEnqWoG2/haw9GoPJiYYyt4="/>
+        <field:display field="username" id="s_com_edu_leap_domain_User_username" object="${user}" z="VfpoZ+sZnUz5bDdHOQhBdiVYSE4="/>
+        <field:display field="password" id="s_com_edu_leap_domain_User_password" object="${user}" z="6oprZbTFw7RQ4x4jOnWEsWAA8Ns="/>
+        <field:display field="firstname" id="s_com_edu_leap_domain_User_firstname" object="${user}" z="IO/RNwZnr/mAeWM17Yij6ys0Nv4="/>
+        <field:display field="lastname" id="s_com_edu_leap_domain_User_lastname" object="${user}" z="QbS+nsMCS1EO0yuDKWvaYbNZHlU="/>
+        <field:display field="email" id="s_com_edu_leap_domain_User_email" object="${user}" z="+n0PyoStGgti+rDAJyQWJvbcGI0="/>
+        <field:display field="createtime" id="s_com_edu_leap_domain_User_createtime" object="${user}" z="D7w7Uw8eVz0mkwZ+Kwpply9PEEs="/>
+        <field:display field="updatetime" id="s_com_edu_leap_domain_User_updatetime" object="${user}" z="C84pGgkoiEbmBF7Z42TqeYOFtic="/>
+        <field:display field="emailstop" id="s_com_edu_leap_domain_User_emailstop" object="${user}" z="JiwWYktEZSELYGCMY7+h8kBoF88="/>
+        <field:display field="skype" id="s_com_edu_leap_domain_User_skype" object="${user}" z="mLSC1WJsFygNCuwrbb5gx8TeTWQ="/>
+        <field:display field="yahoo" id="s_com_edu_leap_domain_User_yahoo" object="${user}" z="lPlmshLBjLn3QS9miNftpha31vk="/>
+        <field:display field="gmail" id="s_com_edu_leap_domain_User_gmail" object="${user}" z="PwOhMwxzrLJ/daVNePdm5mbh/YI="/>
+        <field:display field="phone1" id="s_com_edu_leap_domain_User_phone1" object="${user}" z="S9qqlbiWnowcZwn9cbMCz+uM5sI="/>
+        <field:display field="phone2" id="s_com_edu_leap_domain_User_phone2" object="${user}" z="E7RvSNGYFNGICb6soG+iThMmGWI="/>
+        <field:display field="institution" id="s_com_edu_leap_domain_User_institution" object="${user}" z="0BirXKITi1rwetNuwKQGx8pbs/8="/>
+        <field:display field="department" id="s_com_edu_leap_domain_User_department" object="${user}" z="EI2nWw/wVLjVvl0jaWXbyA8Vk7s="/>
+        <field:display field="address" id="s_com_edu_leap_domain_User_address" object="${user}" z="LyDmRN9ZVPGNovtr5eOpTHjOLRo="/>
+        <field:display field="city" id="s_com_edu_leap_domain_User_city" object="${user}" z="dK3W+RUqUIoLcFvthgsVwCpHfK4="/>
+        <field:display field="country" id="s_com_edu_leap_domain_User_country" object="${user}" z="VHWUvujb3MnvuytStvEndlPplKE="/>
+        <field:display field="lang" id="s_com_edu_leap_domain_User_lang" object="${user}" z="2dShRSCdi3utjmDRidShvYlGBg8="/>
+        <field:display field="calendartype" id="s_com_edu_leap_domain_User_calendartype" object="${user}" z="8kea4tW6R66oplvrcRyClw6PGhg="/>
+        <field:display field="theme" id="s_com_edu_leap_domain_User_theme" object="${user}" z="z92u+Wgh7Oj9oY8QdYoH/Wadu+4="/>
+        <field:display field="timezone" id="s_com_edu_leap_domain_User_timezone" object="${user}" z="AFO0M4gFYQKllJ4DNBZ4aHlOhM4="/>
+        <field:display field="currentlogin" id="s_com_edu_leap_domain_User_currentlogin" object="${user}" z="io7UvulfEdiMUn8Fkk8wDu2ltxo="/>
+        <field:display field="autosubscribe" id="s_com_edu_leap_domain_User_autosubscribe" object="${user}" z="Ef4BgE0GyCwpECDpcmDAvB9WhX0="/>
+    </page:show>
+</div>

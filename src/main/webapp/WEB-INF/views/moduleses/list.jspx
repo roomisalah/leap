@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_edu_leap_domain_Modules" items="${moduleses}" z="H73r/XC/5CWYhzPogVzwK3dykdU=">
+        <table:table data="${moduleses}" id="l_com_edu_leap_domain_Modules" path="/moduleses" typeIdFieldName="moduleid" z="1uAW9/SSB/VZSjDFtcYfR4UKxAQ=">
+            <table:column id="c_com_edu_leap_domain_Modules_companyid" property="companyid" z="5bYrDfkbB/vDy+iJVaGhQKjR3RM="/>
+            <table:column id="c_com_edu_leap_domain_Modules_name" property="name" z="UROJZYvItZWnxO/fI94X3NTwV1Y="/>
+            <table:column id="c_com_edu_leap_domain_Modules_cron" property="cron" z="WXRuXkldfXyllQvJcEX+KOvg/3g="/>
+            <table:column id="c_com_edu_leap_domain_Modules_lastcron" property="lastcron" z="WhM2VanuoXaKm4+wYq4vK3MM1HQ="/>
+            <table:column id="c_com_edu_leap_domain_Modules_search" property="search" z="lOUiRPaut1Md0licbNG7UhI2hrE="/>
+        </table:table>
+    </page:list>
+</div>

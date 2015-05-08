@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_edu_leap_domain_Modules" object="${modules}" path="/moduleses" z="XHYqxMxtRaaabZlytK0pZCO9rxw=">
+        <field:display field="companyid" id="s_com_edu_leap_domain_Modules_companyid" object="${modules}" z="v+mv/Q0Ne0wOWnp5NbDQhsV4XKQ="/>
+        <field:display field="name" id="s_com_edu_leap_domain_Modules_name" object="${modules}" z="Pc6io2TLaP4yxOtOk1jZbtdtxVo="/>
+        <field:display field="cron" id="s_com_edu_leap_domain_Modules_cron" object="${modules}" z="qkNPrz/wwwuBJVCQSCvyhhmXU+Y="/>
+        <field:display field="lastcron" id="s_com_edu_leap_domain_Modules_lastcron" object="${modules}" z="w1yznh7HQr91pxtwT/lyMYZQgUI="/>
+        <field:display field="search" id="s_com_edu_leap_domain_Modules_search" object="${modules}" z="2bFTMCUMjb8AYABDWHjv0fk2tCs="/>
+        <field:display field="status" id="s_com_edu_leap_domain_Modules_status" object="${modules}" z="OnlWNOg4Qifw49c5inV6gfuctvo="/>
+    </page:show>
+</div>

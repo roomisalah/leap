@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_edu_leap_domain_CourseModulesCompletion" modelAttribute="courseModulesCompletion" path="/coursemodulescompletions" render="${empty dependencies}" z="HxFdtuAwBGnjVA8xdxuhVqPqh+M=">
+        <field:select field="companyid" id="c_com_edu_leap_domain_CourseModulesCompletion_companyid" itemValue="companyid" items="${companys}" path="/companys" z="KhO1QCsCyBTmhjvKQDu7ThaDyzs="/>
+        <field:select field="userid" id="c_com_edu_leap_domain_CourseModulesCompletion_userid" itemValue="userid" items="${users}" path="/users" z="Mj9/oT5eglwPUREZJEpL0tHsV20="/>
+        <field:select field="coursemoduleid" id="c_com_edu_leap_domain_CourseModulesCompletion_coursemoduleid" itemValue="coursemoduleid" items="${coursemoduleses}" path="/coursemoduleses" z="wNp9T1buwBNbHzGRWYxQGOgp5/M="/>
+        <field:checkbox field="completionstate" id="c_com_edu_leap_domain_CourseModulesCompletion_completionstate" z="GgC1+JBKLodpZs++8JZAuvONMJI="/>
+        <field:checkbox field="viewed" id="c_com_edu_leap_domain_CourseModulesCompletion_viewed" z="0Xrx7S0MZOy5o6FqTA/KG2gcKrE="/>
+        <field:input field="modifiedtime" id="c_com_edu_leap_domain_CourseModulesCompletion_modifiedtime" required="true" validationMessageCode="field_invalid_integer" z="7iSZ6Bhjvuiakub7MaOqLVaNU0Y="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_edu_leap_domain_CourseModulesCompletion" render="${not empty dependencies}" z="zvq2cPi245xp83G93CuT3OIvncQ="/>
+</div>

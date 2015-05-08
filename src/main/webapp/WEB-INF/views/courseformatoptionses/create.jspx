@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_edu_leap_domain_CourseFormatOptions" modelAttribute="courseFormatOptions" path="/courseformatoptionses" render="${empty dependencies}" z="/NhgNtorFdWFvcnQmtmko05Ri80=">
+        <field:select field="companyid" id="c_com_edu_leap_domain_CourseFormatOptions_companyid" itemValue="companyid" items="${companys}" path="/companys" z="MrGJNHckTvwPpHGLnPVRpE1SHi8="/>
+        <field:select field="courseid" id="c_com_edu_leap_domain_CourseFormatOptions_courseid" itemValue="courseid" items="${courses}" path="/courses" z="NXyfyBNi+KXwYtHiHGAn4IkTtBY="/>
+        <field:input field="format" id="c_com_edu_leap_domain_CourseFormatOptions_format" required="true" z="kf43NBjt6qf67hQSiFMQhNT/4Js="/>
+        <field:input field="sectionid" id="c_com_edu_leap_domain_CourseFormatOptions_sectionid" required="true" validationMessageCode="field_invalid_integer" z="OfgULZfMzEZOp398HdGjRl6Lw6g="/>
+        <field:input field="name" id="c_com_edu_leap_domain_CourseFormatOptions_name" required="true" z="op0fiZVW+CXUywnmiCb4AZeMsro="/>
+        <field:input field="value" id="c_com_edu_leap_domain_CourseFormatOptions_value" z="dwXGIOIgnr8bpFVnGXff9tcHWME="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_edu_leap_domain_CourseFormatOptions" render="${not empty dependencies}" z="4TJ1cNMO2WYMBcYlts9Aa0AyQoY="/>
+</div>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_edu_leap_domain_Course" object="${course}" path="/courses" z="jt0Ir6n/hqRpFaslu2LMrkyBg4c=">
+        <field:display field="categoryid" id="s_com_edu_leap_domain_Course_categoryid" object="${course}" z="jb8u02CLbtJmLPbGPiG4aSOzvXU="/>
+        <field:display field="companyid" id="s_com_edu_leap_domain_Course_companyid" object="${course}" z="WC2fUVjZmjJHtrj/VBxDa2+INNs="/>
+        <field:display field="sortorder" id="s_com_edu_leap_domain_Course_sortorder" object="${course}" z="1blosj3R5ZwlulfD5B7tf4CCNx4="/>
+        <field:display field="fullname" id="s_com_edu_leap_domain_Course_fullname" object="${course}" z="EwlGsuW0xGUWBMECbPfOu9t2XiU="/>
+        <field:display field="shortname" id="s_com_edu_leap_domain_Course_shortname" object="${course}" z="E0uz8vQZUBThiqgI2Pvu6m6bQTY="/>
+        <field:display field="coursenumber" id="s_com_edu_leap_domain_Course_coursenumber" object="${course}" z="sKOaelH6q1VMdkQ4DswDqH7+n8Q="/>
+        <field:display field="summary" id="s_com_edu_leap_domain_Course_summary" object="${course}" z="EQ+ukknYRcH0eBsUA75pYatub9A="/>
+        <field:display field="summaryformat" id="s_com_edu_leap_domain_Course_summaryformat" object="${course}" z="wbeXDdbwl3Vt8hX7zdgs7oWguM0="/>
+        <field:display field="format" id="s_com_edu_leap_domain_Course_format" object="${course}" z="Z+VOVjmTgw/LaULjBWsBPZqMP20="/>
+        <field:display field="showgrades" id="s_com_edu_leap_domain_Course_showgrades" object="${course}" z="WlFV5K4tqBCY1SoxcuHEfaeeask="/>
+        <field:display field="startdate" id="s_com_edu_leap_domain_Course_startdate" object="${course}" z="ELtd6yLk6nLT4aYzPGSB8vbo2Zc="/>
+        <field:display field="enddate" id="s_com_edu_leap_domain_Course_enddate" object="${course}" z="dS7cgAI+NzYjO7ZQWJgsWt7DK7g="/>
+        <field:display field="status" id="s_com_edu_leap_domain_Course_status" object="${course}" z="ezpH25mVGB1XPq16CJbd/kdmuZA="/>
+        <field:display field="createdtime" id="s_com_edu_leap_domain_Course_createdtime" object="${course}" z="QRjnQygP+q80VD2lXiIJt4KDvrA="/>
+        <field:display field="modifiedtime" id="s_com_edu_leap_domain_Course_modifiedtime" object="${course}" z="pCBR5sEGI89BqNAb9Yy2hQ2BUu8="/>
+        <field:display field="enablecompletion" id="s_com_edu_leap_domain_Course_enablecompletion" object="${course}" z="DNw0drj9z3W2ewKCrHY+9Aw4AFY="/>
+        <field:display field="completionnotify" id="s_com_edu_leap_domain_Course_completionnotify" object="${course}" z="zAnG+ry52o30prxIKeca+1rpJqY="/>
+        <field:display field="publishstatus" id="s_com_edu_leap_domain_Course_publishstatus" object="${course}" z="ofrl6d1BGFa6B4iA85VscnLwCi4="/>
+    </page:show>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_edu_leap_domain_CourseCategories" items="${coursecategorieses}" z="hbB5KO89QzsCJ2+eXrMPaLSbcWI=">
+        <table:table data="${coursecategorieses}" id="l_com_edu_leap_domain_CourseCategories" path="/coursecategorieses" typeIdFieldName="categoryid" z="1Bm7zN5g94wdJftR992lKnfYx7k=">
+            <table:column id="c_com_edu_leap_domain_CourseCategories_companyid" property="companyid" z="PdkMTtnSlEImJZUsiZYrqqZ/CjI="/>
+            <table:column id="c_com_edu_leap_domain_CourseCategories_categoryparentid" property="categoryparentid" z="x2casE/B/jqBnpuJ5nIE2BV0zM4="/>
+            <table:column id="c_com_edu_leap_domain_CourseCategories_title" property="title" z="/86inQQgGmSosmEAYHna3ypjUhM="/>
+            <table:column id="c_com_edu_leap_domain_CourseCategories_categorynumber" property="categorynumber" z="R4FTXtrxVYqfmoSTOeYl1QoM+k4="/>
+        </table:table>
+    </page:list>
+</div>

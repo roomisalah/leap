@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_edu_leap_domain_Role" items="${roles}" z="AcC+8raWVH+FsIpzUaQUpJMxz/4=">
+        <table:table data="${roles}" id="l_com_edu_leap_domain_Role" path="/roles" typeIdFieldName="roleid" z="M79bVGdprYdG3jLDege35stdy2g=">
+            <table:column id="c_com_edu_leap_domain_Role_roletype" property="roletype" z="aUyu9siqA6mGiFBY837mWpHyDvA="/>
+            <table:column id="c_com_edu_leap_domain_Role_description" property="description" z="rjOxwQZTlXvp/KBMr9yGE/SPLCQ="/>
+            <table:column id="c_com_edu_leap_domain_Role_sortorder" property="sortorder" z="U1V0y0eaSJ1mVBFURU6VGNv/qmw="/>
+            <table:column id="c_com_edu_leap_domain_Role_archetype" property="archetype" z="qybQ517zlKDEU7DK9gm9sdMT/nE="/>
+        </table:table>
+    </page:list>
+</div>

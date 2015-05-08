@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_edu_leap_domain_CourseCategories" object="${coursecategories}" path="/coursecategorieses" z="9PdiM802/OxGfJuoXlak88QqC5k=">
+        <field:display field="companyid" id="s_com_edu_leap_domain_CourseCategories_companyid" object="${coursecategories}" z="BLozS1zlZt2lxFh7zkaZtxlVl2c="/>
+        <field:display field="categoryparentid" id="s_com_edu_leap_domain_CourseCategories_categoryparentid" object="${coursecategories}" z="mmy0aUBrLyCKu3yIZ++I2WnSkeA="/>
+        <field:display field="title" id="s_com_edu_leap_domain_CourseCategories_title" object="${coursecategories}" z="sJXoYYZ+aQn9QUBX9hngvZgW0Jk="/>
+        <field:display field="categorynumber" id="s_com_edu_leap_domain_CourseCategories_categorynumber" object="${coursecategories}" z="h2hQsW0dyUMetL9v5GvuO+SjoRI="/>
+        <field:display field="description" id="s_com_edu_leap_domain_CourseCategories_description" object="${coursecategories}" z="YpQWfbIJP/qmNbOESjC0DJFlAAg="/>
+        <field:display field="sortorder" id="s_com_edu_leap_domain_CourseCategories_sortorder" object="${coursecategories}" z="A5602Iz0MGHrDFdGynfoviIBamQ="/>
+        <field:display field="status" id="s_com_edu_leap_domain_CourseCategories_status" object="${coursecategories}" z="9c3j7LpQN8+5+glq9ZsJKxJ2N/8="/>
+        <field:display field="createdtime" id="s_com_edu_leap_domain_CourseCategories_createdtime" object="${coursecategories}" z="ftlWFJY02c1WrEy6hCLwLRBLmxM="/>
+        <field:display field="modifiedtime" id="s_com_edu_leap_domain_CourseCategories_modifiedtime" object="${coursecategories}" z="4m3l+NJ9PbdWDExyTYpxZcZob+U="/>
+        <field:display field="categorydepth" id="s_com_edu_leap_domain_CourseCategories_categorydepth" object="${coursecategories}" z="m8TG/ltQ2XHgXs4yxb5r0JKFImY="/>
+        <field:display field="path" id="s_com_edu_leap_domain_CourseCategories_path" object="${coursecategories}" z="anJWZhzfKvRfVId49VO7YYDtiSw="/>
+    </page:show>
+</div>

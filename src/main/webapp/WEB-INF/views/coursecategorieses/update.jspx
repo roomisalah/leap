@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_edu_leap_domain_CourseCategories" idField="categoryid" modelAttribute="courseCategories" path="/coursecategorieses" versionField="none" z="g2rIacNohmFvvwmY9yJwRn7T46M=">
+        <field:simple field="courses" id="c_com_edu_leap_domain_CourseCategories_courses" messageCode="entity_reference_not_managed" messageCodeAttribute="Course" z="URYtAFSb1Xa11Wi8hHYWYvTFTKE="/>
+        <field:simple field="courseCategorieses" id="c_com_edu_leap_domain_CourseCategories_courseCategorieses" messageCode="entity_reference_not_managed" messageCodeAttribute="Course Categories" z="8g1YdeTNnePbIFtx4r1gNwoPJ9c="/>
+        <field:select field="companyid" id="c_com_edu_leap_domain_CourseCategories_companyid" itemValue="companyid" items="${companys}" path="/companys" z="Hic9vbr6HsYAbjmb8VSlQ4OQxAk="/>
+        <field:select field="categoryparentid" id="c_com_edu_leap_domain_CourseCategories_categoryparentid" itemValue="categoryid" items="${coursecategorieses}" path="/coursecategorieses" z="ntamnEM2QaNxU2HAT98Oh3mHY18="/>
+        <field:input field="title" id="c_com_edu_leap_domain_CourseCategories_title" required="true" z="3Z40JrpWIIeiGUfjhNQbZaElEIo="/>
+        <field:input field="categorynumber" id="c_com_edu_leap_domain_CourseCategories_categorynumber" z="HKMXsQe0Hm65vIxvneViM3dN3LM="/>
+        <field:input field="description" id="c_com_edu_leap_domain_CourseCategories_description" z="b/6jOIRwZgpl/t9Fif2LmIC+iv4="/>
+        <field:input field="sortorder" id="c_com_edu_leap_domain_CourseCategories_sortorder" required="true" validationMessageCode="field_invalid_integer" z="VKgv3Js9sB9KVn+VI3YBN91A0IQ="/>
+        <field:checkbox field="status" id="c_com_edu_leap_domain_CourseCategories_status" z="zRa988WAwgcgMq9YxrIFSJtxV7o="/>
+        <field:input field="createdtime" id="c_com_edu_leap_domain_CourseCategories_createdtime" required="true" validationMessageCode="field_invalid_integer" z="l8N0gzwv44CjPQnHQo08dylcTQg="/>
+        <field:input field="modifiedtime" id="c_com_edu_leap_domain_CourseCategories_modifiedtime" required="true" validationMessageCode="field_invalid_integer" z="6Odau7o4SNqYav6T5WEc5S6YIn0="/>
+        <field:input field="categorydepth" id="c_com_edu_leap_domain_CourseCategories_categorydepth" required="true" validationMessageCode="field_invalid_integer" z="XJxVUO27zFvXx6BcrwtMz8xMLGE="/>
+        <field:input field="path" id="c_com_edu_leap_domain_CourseCategories_path" required="true" z="KnTpNh1rcZi8nwGmwRRHjMIEzCo="/>
+    </form:update>
+</div>

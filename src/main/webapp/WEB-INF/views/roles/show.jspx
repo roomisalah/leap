@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_edu_leap_domain_Role" object="${role}" path="/roles" z="GX50mMUkRcHJ7Vwqhv6Sc/RFKnY=">
+        <field:display field="roletype" id="s_com_edu_leap_domain_Role_roletype" object="${role}" z="2xfTuOpiMCR+e1GN9v+kbplhwCI="/>
+        <field:display field="description" id="s_com_edu_leap_domain_Role_description" object="${role}" z="acYV7KZpYJheEMjORgHGTeTYOeM="/>
+        <field:display field="sortorder" id="s_com_edu_leap_domain_Role_sortorder" object="${role}" z="SVSJMh1yVdkm2Ey5PQutQCCjBg0="/>
+        <field:display field="archetype" id="s_com_edu_leap_domain_Role_archetype" object="${role}" z="hIeQK8uVnfXEXze1OdGUeNR46/4="/>
+    </page:show>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_edu_leap_domain_CourseSections" idField="coursesectionid" modelAttribute="courseSections" path="/coursesectionses" versionField="none" z="15A+qq/h4fzl2fbXocJhIeNOiwg=">
+        <field:select field="companyid" id="c_com_edu_leap_domain_CourseSections_companyid" itemValue="companyid" items="${companys}" path="/companys" z="0hcncTG7KvGGONS1dfw2TR8ut3c="/>
+        <field:select field="courseid" id="c_com_edu_leap_domain_CourseSections_courseid" itemValue="courseid" items="${courses}" path="/courses" z="2NyMlYcNDOAorKONDjl7Pv43jUY="/>
+        <field:input field="section" id="c_com_edu_leap_domain_CourseSections_section" required="true" validationMessageCode="field_invalid_integer" z="6B6n+UEuSgQYEhDicuPL2d/vd3A="/>
+        <field:input field="name" id="c_com_edu_leap_domain_CourseSections_name" z="JkcrKn653VqNIeSAqc/bmH8bgo4="/>
+        <field:input field="summary" id="c_com_edu_leap_domain_CourseSections_summary" z="s5WrfDM7gx1sTyzYODxrtui8OUM="/>
+        <field:input field="summaryformat" id="c_com_edu_leap_domain_CourseSections_summaryformat" required="true" validationMessageCode="field_invalid_integer" z="EEq5J9dFdZhoSUTtXUd0J3a4yAw="/>
+        <field:input field="sequence" id="c_com_edu_leap_domain_CourseSections_sequence" z="jlQSbvQGyyCKBXVUajvOGvVsqxU="/>
+        <field:checkbox field="status" id="c_com_edu_leap_domain_CourseSections_status" z="fI9/l1F/HDrKbJAwyjxIbzrE//c="/>
+    </form:update>
+</div>

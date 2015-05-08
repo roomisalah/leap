@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_edu_leap_domain_CourseSections" items="${coursesectionses}" z="HHxL1arRIls2eFmBar2AE6mXPys=">
+        <table:table data="${coursesectionses}" id="l_com_edu_leap_domain_CourseSections" path="/coursesectionses" typeIdFieldName="coursesectionid" z="VTkspBhcqSyqgTPFJR3HnHWZvWA=">
+            <table:column id="c_com_edu_leap_domain_CourseSections_companyid" property="companyid" z="+xCkpigRrV61+53QdUDxHRfOX24="/>
+            <table:column id="c_com_edu_leap_domain_CourseSections_courseid" property="courseid" z="+pNc3dn+clCVbPGTHjS6l/JJoAI="/>
+            <table:column id="c_com_edu_leap_domain_CourseSections_section" property="section" z="4QIKrZ+UN3NM2LwOHPX9qILhyAs="/>
+            <table:column id="c_com_edu_leap_domain_CourseSections_name" property="name" z="kLMk7eO/+NnOLhnlb6N9NRf8O3w="/>
+            <table:column id="c_com_edu_leap_domain_CourseSections_summary" property="summary" z="TEYPdcQA4j5vYAWtA+/cshqs+ko="/>
+            <table:column id="c_com_edu_leap_domain_CourseSections_summaryformat" property="summaryformat" z="ejLSaCHa3VRh6XlhhajuHc8G1f4="/>
+        </table:table>
+    </page:list>
+</div>

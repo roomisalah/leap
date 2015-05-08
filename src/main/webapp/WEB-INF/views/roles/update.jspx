@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_edu_leap_domain_Role" idField="roleid" modelAttribute="role" path="/roles" versionField="none" z="ec2yvq9peEwG/3jOb/AhG14UAlw=">
+        <field:simple field="users" id="c_com_edu_leap_domain_Role_users" messageCode="entity_reference_not_managed" messageCodeAttribute="User" z="Xpy4tCxJe53uCtN7Vl9MJvPOd84="/>
+        <field:input field="roletype" id="c_com_edu_leap_domain_Role_roletype" required="true" z="J+gxdlW/7Df+LWe5QOJj4HX6RgY="/>
+        <field:input field="description" id="c_com_edu_leap_domain_Role_description" required="true" z="SuDVFNfPyXfpIeWtwa1/tFfNzLk="/>
+        <field:input field="sortorder" id="c_com_edu_leap_domain_Role_sortorder" required="true" validationMessageCode="field_invalid_integer" z="96bFFkvFxnaPKhgn1CQBL7NLEeA="/>
+        <field:input field="archetype" id="c_com_edu_leap_domain_Role_archetype" required="true" z="XpLpId9OTmRzBlyKF1Fg6dEZ0rk="/>
+    </form:update>
+</div>

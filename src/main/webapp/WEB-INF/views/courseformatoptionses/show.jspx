@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_edu_leap_domain_CourseFormatOptions" object="${courseformatoptions}" path="/courseformatoptionses" z="Y+02zQl7t6XEwURZwIMGYVfJ0UE=">
+        <field:display field="companyid" id="s_com_edu_leap_domain_CourseFormatOptions_companyid" object="${courseformatoptions}" z="bxLvH2efiUgcW715xS3TY6vPeJs="/>
+        <field:display field="courseid" id="s_com_edu_leap_domain_CourseFormatOptions_courseid" object="${courseformatoptions}" z="ID0o5eTXfdWyDzYrXONiZo3ef24="/>
+        <field:display field="format" id="s_com_edu_leap_domain_CourseFormatOptions_format" object="${courseformatoptions}" z="UhIYGOTOdlz6BaEH9xjXIst7vp0="/>
+        <field:display field="sectionid" id="s_com_edu_leap_domain_CourseFormatOptions_sectionid" object="${courseformatoptions}" z="EB/TP5N7xGdmfGJaF4ztYqLCYQ4="/>
+        <field:display field="name" id="s_com_edu_leap_domain_CourseFormatOptions_name" object="${courseformatoptions}" z="xA+wLJuIz+blntcOQw3JNiAogYQ="/>
+        <field:display field="value" id="s_com_edu_leap_domain_CourseFormatOptions_value" object="${courseformatoptions}" z="Nr0O7Q11u/MjPO+2UAaHt4tJGSM="/>
+    </page:show>
+</div>

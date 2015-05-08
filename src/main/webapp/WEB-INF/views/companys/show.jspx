@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_edu_leap_domain_Company" object="${company}" path="/companys" z="TH8IV0uQEsynfwgrizSNSNXNAXY=">
+        <field:display field="companyname" id="s_com_edu_leap_domain_Company_companyname" object="${company}" z="od/eEA3p9j+T48F0rrA4a7h57r4="/>
+        <field:display field="description" id="s_com_edu_leap_domain_Company_description" object="${company}" z="2omqtVV7ZN0mhXVmYCmRbYj2z1A="/>
+        <field:display field="active" id="s_com_edu_leap_domain_Company_active" object="${company}" z="kS33YnwBshwvUFpJXuKuC57Med4="/>
+        <field:display field="createtime" id="s_com_edu_leap_domain_Company_createtime" object="${company}" z="OArC9fCChiRfKS/UWe5uLiMGlY8="/>
+        <field:display field="updatetime" id="s_com_edu_leap_domain_Company_updatetime" object="${company}" z="XMANDSC+6G3sr+Ul5a6XzhsP+eo="/>
+    </page:show>
+</div>

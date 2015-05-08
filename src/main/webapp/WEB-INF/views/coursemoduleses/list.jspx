@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_edu_leap_domain_CourseModules" items="${coursemoduleses}" z="lLl/rNyhLSReDAnVpxGOP6HyTwA=">
+        <table:table data="${coursemoduleses}" id="l_com_edu_leap_domain_CourseModules" path="/coursemoduleses" typeIdFieldName="coursemoduleid" z="UtnmgmmxVk8dSiaxgVWhJBGh4Ks=">
+            <table:column id="c_com_edu_leap_domain_CourseModules_companyid" property="companyid" z="729T7SXVElauU7GAgCEc2znV4+4="/>
+            <table:column id="c_com_edu_leap_domain_CourseModules_moduleid" property="moduleid" z="2p6mfzByKYYkSXXMkMJceqMv7S0="/>
+            <table:column id="c_com_edu_leap_domain_CourseModules_courseid" property="courseid" z="xFdHln80cxYGg45RYUZ4jaCcY+8="/>
+            <table:column id="c_com_edu_leap_domain_CourseModules_instance" property="instance" z="TSlrigUgT06mM0JhEJSea+W7YuI="/>
+            <table:column id="c_com_edu_leap_domain_CourseModules_section" property="section" z="pgPyZ+gFybl3Ph/MCrq+/6SB6SI="/>
+        </table:table>
+    </page:list>
+</div>

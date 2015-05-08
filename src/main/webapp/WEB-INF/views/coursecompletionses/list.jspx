@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_edu_leap_domain_CourseCompletions" items="${coursecompletionses}" z="SBlB6LXiNpdCZNuBV0sBXqIc51g=">
+        <table:table data="${coursecompletionses}" id="l_com_edu_leap_domain_CourseCompletions" path="/coursecompletionses" typeIdFieldName="coursecompid" z="4gTUvqanUE1S8QCzNQWNABQF0DY=">
+            <table:column id="c_com_edu_leap_domain_CourseCompletions_companyid" property="companyid" z="5mxTm1kcN3RY4KpEYiQU6+l47Kk="/>
+            <table:column id="c_com_edu_leap_domain_CourseCompletions_userid" property="userid" z="MALiwU6kgFDUqzx7Hf4c1hKTMpw="/>
+            <table:column id="c_com_edu_leap_domain_CourseCompletions_courseid" property="courseid" z="QFm34R8AiglLtqaJvKQiMb1rL9A="/>
+            <table:column id="c_com_edu_leap_domain_CourseCompletions_timeenrolled" property="timeenrolled" z="08L3XMblClldwRNWiGuEAI4ehxI="/>
+            <table:column id="c_com_edu_leap_domain_CourseCompletions_timestarted" property="timestarted" z="CUvJiCl8DynEPAas0wlHdeCQ3Rc="/>
+            <table:column id="c_com_edu_leap_domain_CourseCompletions_timecompleted" property="timecompleted" z="g5b7A+7mEGAyE48Brk6i75bGNn0="/>
+        </table:table>
+    </page:list>
+</div>

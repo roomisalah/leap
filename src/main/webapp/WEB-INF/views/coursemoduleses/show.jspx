@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_edu_leap_domain_CourseModules" object="${coursemodules}" path="/coursemoduleses" z="VDnCAoB/zAnS1WzK/XPncN/uudM=">
+        <field:display field="companyid" id="s_com_edu_leap_domain_CourseModules_companyid" object="${coursemodules}" z="HLiqjdzJs8ln6PctTjilyHdxK8E="/>
+        <field:display field="moduleid" id="s_com_edu_leap_domain_CourseModules_moduleid" object="${coursemodules}" z="A6SAWSd20qejBIJYBatimb82cwQ="/>
+        <field:display field="courseid" id="s_com_edu_leap_domain_CourseModules_courseid" object="${coursemodules}" z="jfWxckIxcb1HkhoM153A5ZuxPJw="/>
+        <field:display field="instance" id="s_com_edu_leap_domain_CourseModules_instance" object="${coursemodules}" z="63fOEjxNwd45L8Ff4DWhjfOpsqM="/>
+        <field:display field="section" id="s_com_edu_leap_domain_CourseModules_section" object="${coursemodules}" z="fgqK1H+J+zUOr+FHd+XGfStup3Y="/>
+        <field:display field="idnumber" id="s_com_edu_leap_domain_CourseModules_idnumber" object="${coursemodules}" z="YHLQNk/Z9iz1WNq+25Z8TDH/55w="/>
+        <field:display field="addedon" id="s_com_edu_leap_domain_CourseModules_addedon" object="${coursemodules}" z="dkfTlP8lYC7YJ1d/hWD8R2TXeqU="/>
+        <field:display field="score" id="s_com_edu_leap_domain_CourseModules_score" object="${coursemodules}" z="bmjnQUojv5H2uEg/MJp22hg+rd0="/>
+        <field:display field="indent" id="s_com_edu_leap_domain_CourseModules_indent" object="${coursemodules}" z="hhYQ7eZvzBfsbLb3hYrR8yWyn8M="/>
+        <field:display field="status" id="s_com_edu_leap_domain_CourseModules_status" object="${coursemodules}" z="s54VAzqv2JTW5Ccj+cA/22nJcdg="/>
+        <field:display field="completion" id="s_com_edu_leap_domain_CourseModules_completion" object="${coursemodules}" z="sdXn8fwGrsztx3fB1UyjsLSqwng="/>
+    </page:show>
+</div>

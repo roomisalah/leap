@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_edu_leap_domain_CourseCompletions" modelAttribute="courseCompletions" path="/coursecompletionses" render="${empty dependencies}" z="0ciDk8Yb/xahuhIZfFG0Ykh1TD4=">
+        <field:select field="companyid" id="c_com_edu_leap_domain_CourseCompletions_companyid" itemValue="companyid" items="${companys}" path="/companys" z="WuqM4eQ+OxorKiF0a7ADpSDaD/4="/>
+        <field:select field="userid" id="c_com_edu_leap_domain_CourseCompletions_userid" itemValue="userid" items="${users}" path="/users" z="l3blsYxur4DBxDKXke3XWsp3flw="/>
+        <field:select field="courseid" id="c_com_edu_leap_domain_CourseCompletions_courseid" itemValue="courseid" items="${courses}" path="/courses" z="EeASZXDhADqwwBv6FFcMzIWkSTY="/>
+        <field:input field="timeenrolled" id="c_com_edu_leap_domain_CourseCompletions_timeenrolled" required="true" validationMessageCode="field_invalid_integer" z="vbCfF0ktxKDfzSd2M1Jp8em6NAA="/>
+        <field:input field="timestarted" id="c_com_edu_leap_domain_CourseCompletions_timestarted" required="true" validationMessageCode="field_invalid_integer" z="jOKVrx7BOw1MnuIioRv/KKBJmK0="/>
+        <field:input field="timecompleted" id="c_com_edu_leap_domain_CourseCompletions_timecompleted" validationMessageCode="field_invalid_integer" z="DphfvpazlP1ge1guQav+YwPQY3s="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_edu_leap_domain_CourseCompletions" render="${not empty dependencies}" z="Og1Ugfp8IUDaa0ttqLKeQg9/x6k="/>
+</div>
